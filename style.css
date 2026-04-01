@@ -1,0 +1,34 @@
+.section-hero{
+    background-image: url("asset/bg-image-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* 100% de la hauteur de l'écran */
+}
+
+.section3{
+    background-image: url("asset/bg-image-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.lumiereepuree{
+    background-image: url(asset/img-galerie-1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
