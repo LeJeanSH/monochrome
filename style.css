@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
 .section-hero{
     background-image: url("asset/bg-image-hero.png");
     background-size: cover;
@@ -9,15 +18,19 @@
     background-image: url("asset/bg-image-2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 50vh;
 }
 
 .white{
-    background-color: white;
+    color: white;
 }
 
 .black{
     color: black;
+}
+
+.bold{
+    font-weight: 700;
 }
 
 a{
@@ -32,3 +45,78 @@ a{
     height: 100vh;
 }
 
+/* FLEX BOX */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spacebetween{
+    justify-content: space-between;
+}
+
+.gap48{
+    gap: 48px;
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.justifycenter{
+    justify-content: center;
+}
+
+/* MARGIN ET PADDING */
+.p40{
+    padding: 40px;
+}
+
+.mt8{
+    margin-top: 8px;
+}
+
+.mt16{
+    margin-top: 16px;
+}
+
+.mt32{
+    margin-top: 32px;
+}
+
+.mt64{
+    margin-top: 64px;
+}
+
+.mt128{
+    margin-top: 128px;
+}
+
+.mb8{
+    margin-bottom: 8px;
+}
+
+.mb16{
+    margin-bottom: 16px;
+}
+
+.mb32{
+    margin-bottom: 32px;
+}
+
+.mb128{
+    margin-bottom: 128px;
+}
+
+/* TAILLES */
+.w40{
+    width: 40%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.block{
+    display: inline-block;
+}
